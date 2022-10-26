@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador del clima</title>
+    <link rel="shortcut icon" href="PicsArt_10-25-10.56.53.png" type="image/x-icon">
+    <title>Contacto con el clima</title>
     <link rel="stylesheet" href="./apiclimacss.css">
     <script src="./apiclima.js" defer></script>
 </head>
 <body>
     <section class="weather-content">
-        <h1>Buscador del clima</h1>
+        <img src="PicsArt_10-25-10.56.53.png" width="190" height="190">
+        <h1>Contacto con el clima</h1>
         <div class="result">
-            <p>Agrege cuidad y pais</p>
-            <h5>Clima en Buenos Aires</h5>
+            <h5></h5>
             <img src="" alt="">
-            <h2>15°C</h2>
-            <p>Max: 16°C</p>
-            <p>Min: 11°C</p>
+            <h2></h2>
+            <p></p>
+            <p></p>
+            <p>Agrege cuidad y pais</p>
         </div>
         <form action="" method="POST" class="get-weather">
-            <input type="text" name="city" id="city" placeholder="Write your city...">
+        
             <select name="" id="country">
-                <option disabled selected value="">Select the country</option>
+                <option disabled selected value="">Seleccionar el país</option>
                 <option value="AR">Argentina</option>
                 <option value="CO">Colombia</option>
                 <option value="CR">Costa Rica</option>
@@ -31,7 +33,17 @@
                 <option value="MX">México</option>
                 <option value="PE">Perú</option>
             </select>
-            <input type="submit" name="" id="" value="Get Weather">
+            <select name="" id="city">
+            <option disabled selected value="">Seleccionar ciudad</option>
+            <option >Buenos aires</option>
+                <option>Ranelagh</option>
+                <option>Berazategui</option>
+                <option>Bosques</option>
+                <option>Palermo</option>
+                <option>Cordoba</option>
+                <option>Misiones</option>
+            </select>
+            <input type="submit" name="" id="" value="Buscar">
         </form>
     </section>
     
