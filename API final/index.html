@@ -28,11 +28,11 @@
             </select>
 
 <link>
-            <select name="Provincias" class="">
+            <select name="Provincias" id="provincia" class="">
             <option disabled selected value="">Seleccionar Provincia</option>
                 <option id="06">Buenos aires</option>
                 <option id="02">Ciudad Autonoma de Buenos Aires</option>
-                <option id="10">Catamarca</option>
+                <option id="10">Catamarca</option>           
                 <option id="22">Chaco</option>
                 <option id="26">Chubut</option>
                 <option id="14">Córdoba</option>
@@ -55,7 +55,11 @@
                 <option id="94">Tierra del Fuego, Antartida e Islas del Atlántico Sur</option>
                 <option id="90">Tucumán</option>
             </select>
-            <input name="Municipio" id="city" class="" type="text" placeholder="Seleccionar Municipio">
+            <!-- <input name="Municipio" id="city" class="" type="text" placeholder="Seleccionar Municipio"> -->
+            <input type="text" list="Municipios" id="city" placeholder="Escribir su Municipio" />
+            <datalist id="Municipios">
+                <option></option>
+            </datalist>
             <input type="submit" name="" id="" value="Buscar">
         </form>
     </section>
